@@ -1,0 +1,21 @@
+<!doctype html><html lang="en" data-bs-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How licensing works | TRB Plugins</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/style.css" rel="stylesheet"><link rel="icon" href="favicon.ico"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png"></head><body>
+<nav class="navbar navbar-expand-md sticky-top glass-nav"><div class="container">
+<a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html"><img src="assets/logo.jpg" alt="TRB logo" width="40" height="40" class="brand-logo"><span><span class="text-accent">TRB</span> Plugins</span></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nav"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="index.html">Home</a></li><li class="nav-item dropdown hover-dd"><a class="nav-link dropdown-toggle" href="index.html#plugins" role="button" data-bs-toggle="dropdown" aria-expanded="false">Plugins</a><ul class="dropdown-menu dropdown-menu-dark"><li><a class="dropdown-item" href="free-plugins.html">Free Plugins</a></li><li><a class="dropdown-item" href="paid-plugins.html">Paid Plugins</a></li><li><hr class="dropdown-divider"></li><li><a class="dropdown-item" href="index.html#plugins">All plugins</a></li></ul></li><li class="nav-item"><a class="nav-link" href="licensing.html">Licensing</a></li><li class="nav-item"><a class="nav-link" href="terms.html">Terms</a></li><li class="nav-item"><a class="nav-link" href="privacy.html">Privacy</a></li>
+<li class="nav-item ms-md-2"><a class="btn btn-accent btn-sm mt-1" href="https://discord.gg/Ec59jzYAnx">Join Discord</a></li></ul></div></div></nav>
+<main><section class="container py-5 col-lg-8"><h1>How licensing works</h1>
+<p>Free plugins need no key. Paid plugins use a <b>perpetual licence</b>: you pay once and may keep using the version you bought, and updates we release, for as long as we support it.</p>
+<h4>One licence per game</h4><p>ASE and ASA are separate products and are sold separately.</p>
+<h4>Getting your key</h4><ol><li>Buy the plugin. Checkout is handled securely by our payment processor.</li><li>Join our <a href="https://discord.gg/Ec59jzYAnx">Discord server</a>.</li><li>Run <code>/license register</code> with TRB_SupportBot and give your server's machine code and cluster ID.</li><li>The bot gives you a signed key and the plugin download.</li></ol>
+<h4>What the key is tied to</h4><p>Each key is signed offline and bound to the product, the game, your server machine (a machine code from Windows) and your cluster ID.</p>
+<h4>Moving servers</h4><p>Use <code>/license update</code> when you move to a new machine or change your cluster ID. Moves have a 24-hour cooldown and a limit of 3 per year. Contact support if you need more.</p>
+<h4>Network use</h4><p>Keys are checked offline on your server, so the plugin makes no network connections today. Each update carries a list of revoked keys (for example after a chargeback). Plugins <b>fail open</b>, so a licence problem never takes your server down. If we ever add an online revocation check, we will say so here first.</p>
+<h4>No trials</h4><p>Try our free plugins to see how our plugins perform. Questions before buying? Open a ticket on Discord.</p></section></main>
+<footer class="border-top border-accent-subtle py-4 mt-5 small text-secondary"><div class="container d-flex flex-wrap justify-content-between gap-2">
+<div>&copy; 2026 TRB Plugins (TheRealBillyB). Not affiliated with Studio Wildcard or Snail Games. ARK is a trademark of its owners.</div>
+<div><a href="terms.html">Terms</a> &middot; <a href="refunds.html">Refunds</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="licensing.html">Licensing</a> &middot; Support: <a href="https://discord.gg/wGnuQbdYXY">Discord #support</a></div></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script></body></html>
