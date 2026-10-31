@@ -29,3 +29,6 @@ body{background:#07090b}
 .ph{background:#5a1f1f;color:#ffd0d0;padding:0 .3em;border-radius:3px}
 .draft{border:2px dashed #c94;padding:.75rem 1rem;border-radius:6px;background:#2a2112}
 a{color:#6eeef5}code{color:#8ff3f8}
+.checkout-card{border-color:rgba(46,230,240,.3);box-shadow:0 0 22px rgba(46,230,240,.12)}
+.checkout-card .form-control,.checkout-card .form-select{background-color:#0a0f12;border-color:#1c2a30}
+.checkout-card .form-control:focus,.checkout-card .form-select:focus{border-color:var(--accent);box-shadow:0 0 0 .2rem rgba(46,230,240,.25)}
